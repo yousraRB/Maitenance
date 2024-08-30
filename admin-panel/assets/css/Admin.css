@@ -1,0 +1,153 @@
+/* =========== Google Fonts ============ */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+
+body{
+    background:url(../imgs/usthb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    overflow: hidden;
+}
+.wrapper{
+    width:480px;
+    margin:8% auto;
+   
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.23);
+	box-shadow: 0 0 17px rgb(25, 24, 24);
+}
+.heading {
+	text-align: center;
+	padding-top: 40px;
+}
+.heading h1 {
+	color: white;
+	font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin-bottom: 50px;
+}
+form {
+	text-align: center;
+}
+form input{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    padding-left: 45px;
+    box-sizing: border-box;
+	font-size: 15px;
+	color: rgb(24, 23, 23);
+    border-radius: 10px;
+}
+
+form i {
+	position: absolute;
+	left: 15px;
+	color:rgb(28, 108, 199);
+	font-size: 19px;
+	top: 2px;
+}
+form span {
+	position: relative;
+}
+form ::placeholder {
+    color:#110e3a;
+    font-weight: bold;
+  }
+#submit {
+    width: 120px;
+	background-color:rgb(28, 108, 199);
+    color: white;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+    border-radius: 15px;
+    padding: 3PX 3PX;
+
+}
+#rest_button{
+    width: 130px;
+	background-color:rgb(13, 43, 107) ;
+    color: white;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+    border-radius: 15px;
+    padding: 3PX 3PX;
+}
+#submit:hover ,#rest_button:hover {
+	background-color: rgba(28, 108, 199, 0.384);
+    color:white;
+}
+a{
+   margin-right: 150px;
+   color: aliceblue;
+}
+a:hover{
+    color:rgba(28, 108, 199, 0.384);
+}
+#rest_button{
+    width: 142px;
+    cursor: pointer;
+}
+
+.role-selection{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.role-title{
+    color: white;
+    width: 30%;
+    font-size: 18px;
+}
+.role-selection label{
+    display: flex;
+    align-items: center;
+    color: black;
+    width: 15%;
+}
+.form .password-icon {
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    color:black
+  }
+  .dark-body .form .password-icon{
+    color:white;
+  }
+.error{
+    color: #D8000C;
+    background-color: #FFBABA;
+    padding: 10px;
+    margin: 3px 0;
+    border: 1px solid #D8000C;
+    border-radius: 5px;
+    font-size: 16px;     
+}
+.success{
+    color: #07522a;
+    background-color: #8fc090;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #022d0d;
+    border-radius: 5px;
+    font-size: 16px; 
+}
+
+.roles {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .roles option {
+    background-color:rgb(28, 108, 199)67;
+    color: rgb(20, 2, 29);
+  }
+  
